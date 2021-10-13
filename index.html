@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Девайс</title>
   </head>
 
@@ -33,7 +35,7 @@
             <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="delivery.html">Доставка</a>
-          </li> 
+          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="waranty.html">Гарантия</a>
           </li>
@@ -62,104 +64,147 @@
     <main class="main-index">
       <h1 class="visually-hidden">Магазин "Девайс"</h1>
 
-      <section class="examples-products">
-          <img class="slider-image" src="" alt="Примеры">
-           <button class="slider-button slider-prev" type="button">
-             <span class="visually-hidden">Предыдущее</span></button>
-            <button class="slider-button slider-prev" type="button">
-              <span class="visually-hidden">Следующая</span></button>
-
-      <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Квадрокоптер</span></button>
-              </li>
-              <section class="slider">
-                <ol class="slider-title">
-                  <li class="slider-title-item"> 
-                    <h2>Пархает как бабочка, жалит как пчела!</h2>
-                      <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-                    <div>
-                      <a class="information" href="#">Подробнее</a>
-                    </div>
-                    <dl>
-                      <dt>800 m</dt>
-                      <dd>Дальность полета</dd>
-        
-                      <dt>50 м</dt>
-                      <dd>Радиус поражения</dd> 
-                    </dl>
+      <section>
+        <h2 class="visually-hidden">Сладер товаров</h2>
+        <!-- Создаем сгруппированный нумерованный список для слайдера,
+        где внутри списка у нас три отдельных блока,
+        которые мы записаем в <li></li> -->
+        <ol>
+          <li>
+            <div>
+              <img src="" alt="">
+            </div>
+            <div>
+              <span>01</span>
+              <h2>Порхает как бабочка,
+                жалит как пчела!</h2>
+              <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+              <!-- Мы создаем обертку div, чтобы расположить два элемента горизонтально -->
+              <div>
+                <a href="">Подробнее</a>
+                <ul>
+                  <li>
+                    <input type="radio" id="slider-1" name="active-slider">
                   </li>
-                </ol>
-
-       <li class="slider-pagination-item">
-                    <button class="slider-pagination-button" type="button">
-                      <span class="visually-hidden">Фитнес-браслет</span></button>
-                      </li>
-                    <section class="slider">
-                      <ol class="slider-title">
-                        <li class="slider-title-item"> 
-                          <h2>Худеем правильно!</h2>
-                            <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-                          <div>
-                            <a class="information" href="#">Подробнее</a>
-                          </div>
-                          <dl>
-                            <dt>48 часов</dt>
-                            <dd>Без подзарядки</dd>
-                          </dl>
-      </li>
+                  <li>
+                    <input type="radio" id="slider-2" name="active-slider">
+                  </li>
+                  <li>
+                    <input type="radio" id="slider-3" name="active-slider">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="" alt="">
+            </div>
+            <div>
+              <span>02</span>
+              <h2>Худеем правильно</h2>
+              <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+              <!-- Мы создаем обертку div, чтобы расположить два элемента горизонтально -->
+              <div>
+                <a href="">Подробнее</a>
+                <ul>
+                  <li>
+                    <input type="radio" id="slider-1" name="active-slider">
+                  </li>
+                  <li>
+                    <input type="radio" id="slider-2" name="active-slider">
+                  </li>
+                  <li>
+                    <input type="radio" id="slider-3" name="active-slider">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="" alt="">
+            </div>
+            <div>
+              <span>03</span>
+              <h2>Делай селфи,
+                как Бен Стиллер! </h2>
+              <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+              <!-- Мы создаем обертку div, чтобы расположить два элемента горизонтально -->
+              <div>
+                <a href="">Подробнее</a>
+                <ul>
+                  <li>
+                    <input type="radio" id="slider-1" name="active-slider">
+                  </li>
+                  <li>
+                    <input type="radio" id="slider-2" name="active-slider">
+                  </li>
+                  <li>
+                    <input type="radio" id="slider-3" name="active-slider">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
         </ol>
-                      
-        <li class="slider-pagination-item">
-                    <button class="slider-pagination-button" type="button">
-                          <span class="visually-hidden">Монопод для селфи</span></button>
-                        </li>>
-                          <section class="slider">
-                            <ol class="slider-title">
-                              <li class="slider-title-item"> 
-                                <h2>Делай селфи, как Бен Стиллер!</h2>
-                                  <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
-                                <div>
-                                  <a class="information" href="#">Подробнее</a>
-                                </div>
-                                <dl>
-                                  <dt>8,5 m</dt>
-                                  <dd>Длина палки</dd>
-                    
-                                  <dt>5 кг</dt>
-                                  <dd>Вес палки</dd>
+      </section>
 
-                                  <dt>Карбон</dt>
-                                  <dd>Материал палки</dd>
-                                </dl>
-                              </li>
-                              </ol>
-
-       <section class="products"> 
+       <section class="products">
+         <h2 class="visually-hidden">Популярные товары</h2>
          <ul class="products-name">
           <li class="products-link">
-            <a href="#"><img src="#">Виртуальная реальность</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>Виртуальная <br> реальность</h2>
           </li>
           <li class="products-link">
-            <a href="#"><img src="#">Моноподы для селфи</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>Моноподы <br> для селфи</h2>
           </li>
           <li class="products-link">
-            <a href="#"><img src="#">Экшн-камеры</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>"Экш-камеры</h2>
           </li>
           <li class="products-link">
-            <a href="#"><img src="#">Фитнес-браслеты</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>Фитнес-браслеты</h2>
           </li>
           <li class="products-link">
-            <a href="#"><img src="#">Умные часы</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>Умные часы</h2>
           </li>
           <li class="products-link">
-            <a href="#"><img src="#">Квадрокоптеры</a>
+            <div>
+              <a href="#"><img src="#"></a>
+            </div>
+            <h2>Квадрокоптеры</h2>
           </li>
         </ul>
       </section>
 
       <section class="advantages">
-        <ul class="advantages-item">
+        <ul>
+          <li>
+            <button type="button">Доставка</button>
+          </li>
+          <li>
+            <button type="button">Гарантия</button>
+          </li>
+          <li>
+            <button type="button">Кредит</button>
+          </li>
+        </ul>
+        <ol class="advantages-item">
           <li class="advantages-link">
             <button class="navigation-name">Доставка</button>
             <h3>Доставка</h3>
@@ -181,11 +226,11 @@
                 консультанты подберут для вас наиболее выгодные
                 условия кредита. Выгодные для банка, разумеется.</pre></p>
             </li>
-        </ul>
+          </ol>
       </section>
-         
 
-          
+
+
 
 
 
