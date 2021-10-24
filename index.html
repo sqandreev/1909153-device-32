@@ -11,6 +11,9 @@
       <nav class="navigation">
         <form class="catalog">
           <button class="products">Каталог товаров</button>
+          <button class=products-item>
+            <img class="plus" src="images/plus.svg" width="16" height="16" alt="Раскрыть каталог">
+          </button>
           <ul class="products-item">
             <li class="products-name">
               <a class="products-link">Виртуальная реальность </a>
@@ -44,18 +47,22 @@
           </li>
         </ul>
         <form action="search" method="get">
-         <img class="search" src="images/search.svg" width="16" height="16" alt="Поиск"
-          <input name="s" placeholder="Поиск по сайту" type="search" />
-          <button type="submit">Поиск</button>
+          <button type="submit">
+            <img class="search" src="images/search.svg" width="16" height="16" alt="Поиск">
+          </button>
+          <input name="s" placeholder="Поиск по сайту" type="search">
         </form>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
+            <img class="enter" src="images/enter.svg" width="13" height="12" alt="Вход">
             <a class="navigation-link" href="#">Вход </a>
           </li>
           <li class="navigation-item">
+            <img class="compare" src="images/compare.svg" width="10" height="12" alt="Сравнить">
             <a class="navigation-link" href="#">Сравнить </a>
           </li>
           <li class="navigation-item">
+            <img class="trashfolder" src="images/trashfolder.svg" width="16" height="14" alt="Корзина">
             <a class="navigation-link" href="#">Корзина </a>
           </li>
         </ul>
@@ -71,7 +78,9 @@
         <ol>
           <li>
             <div>
-              <img src="#" alt="#" />
+              <img class="arrow" src="images/left-tall-arrow.svg" width="20" height="60" alt="Стрелка влево">
+              <img class="product-name" src="images/name-quadcopter.png" width="560" height="560" alt="Квадрокоптеры">
+              <img class="arrow" src="images/right-tall-arrow.svg" width="20" height="60" alt="Стрелка вправо">
             </div>
             <div>
               <span>01 </span>
@@ -102,6 +111,9 @@
               <img src="#" alt="#" />
             </div>
             <div>
+              <img class="arrow" src="images/left-tall-arrow.svg" width="20" height="60" alt="Стрелка влево">
+              <img class="product-name" src="#" width="560" height="560" alt="Фитнес-браслет">
+              <img class="arrow" src="images/right-tall-arrow.svg" width="20" height="60" alt="Стрелка вправо">
               <span>02 </span>
               <h2>Худеем правильно</h2>
               <p>
@@ -130,6 +142,9 @@
               <img src="#" alt="#" />
             </div>
             <div>
+              <img class="arrow" src="images/left-tall-arrow.svg" width="20" height="60" alt="Стрелка влево">
+              <img class="product-name" src="#" width="560" height="560" alt="Селфи-палка">
+              <img class="arrow" src="images/right-tall-arrow.svg" width="20" height="60" alt="Стрелка вправо">
               <span>03 </span>
               <h2>Делай селфи, как Бен Стиллер!</h2>
               <p>
@@ -161,7 +176,7 @@
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="virtual-reality" src="images/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
               </a>
             </div>
             <h2>
@@ -172,7 +187,7 @@
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="monopods-for-selfies" src="images/monopods-for-selfies.svg" width="86" height="117" alt="Моноподы для селфи">
               </a>
             </div>
             <h2>
@@ -183,15 +198,15 @@
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="action-cameras" src="images/action-cameras.svg" width="71" height="87" alt="Экшн-камеры">
               </a>
             </div>
-            <h2>"Экш-камеры</h2>
+            <h2>Экшн-камеры</h2>
           </li>
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="fitness-bracelets" src="images/fitness-bracelets.svg" width="107" height="65" alt="Фитнес-браслет">
               </a>
             </div>
             <h2>Фитнес-браслеты</h2>
@@ -199,7 +214,7 @@
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="smart-watches" src="images/smart-watches.svg" width="56" height="98" alt="Умные часы">
               </a>
             </div>
             <h2>Умные часы</h2>
@@ -207,7 +222,7 @@
           <li class="products-link">
             <div>
               <a href="#">
-                <img src="#" alt="" />
+                <img class="quadrocopters" src="images/quadrocopters.svg" width="132" height="69" alt="Квадрокоптеры">
               </a>
             </div>
             <h2>Квадрокоптеры</h2>
@@ -234,31 +249,34 @@
               совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на
               ваш этаж.
             </p>
+            <img class="delivery" src="images/delivery.svg" width="136" height="164" alt="Доставка">
           </li>
           <li class="advantages-link">
-            <h3>Доставка</h3>
+            <h3>Гарантия</h3>
             <p>
               Если из-за возгорания купленного у нас товара у вас сгорит дом —
               не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.
             </p>
+            <img class="warranty" src="#" width="136" height="164" alt="Гарантия">
           </li>
           <li class="advantages-link">
-            <h3>Доставка</h3>
+            <h3>Кредит</h3>
             <p>
               Залезть в долговую яму стало проще! Кредитные консультанты
               подберут для вас наиболее выгодные условия кредита. Выгодные для
               банка, разумеется.
             </p>
+            <img class="credit" src="#" width="136" height="164" alt="Кредит">
           </li>
         </ol>
       </section>
       <div>
         <!-- Через псевдоэлемент сделать сделать коробку с фургоном -->
+        <img class="delivery-service" src="images/delivery-service.svg" width="47" height="31" alt="Доставка любого товара">
         <h3>Доставим редкий товар под заказ</h3>
         <button class="information" type="button">
-          <span class="visually-hidden"
-            >Посмотреть дополнительную информацию
-          </span>
+          <img class="info" src="images/info.svg" width="2" height="12" alt="Дополнительная информация">
+          
         </button>
       </div>
       <ol>
@@ -330,7 +348,8 @@
           </p>
           <button class="submit">Подписаться</button>
         </form>
-        <span class="newsletter-form">Это бесплатно </span>
+          <img class="green-check" src="images/green-check.svg" width="14" height="14" alt="Выполнено">
+          <span class="newsletter-form">Это бесплатно</span>
       </section>
     </main>
     <footer class="page-footer">
@@ -366,22 +385,22 @@
         <ul aria-label="social list" class="social-list">
           <li class="social-item">
             <a class="social-link" class="button" href="#">
-              <span class="visually-hidden">Фейсбук </span>
+              <img class="social-name" src="images/facebook.svg" width="9" height="18" alt="Фейсбук">
             </a>
           </li>
           <li class="social-item">
             <a class="social-link" class="button" href="#">
-              <span class="visually-hidden">Инстаграм </span>
+              <img class="social-name" src="images/instagram.svg" width="16" height="16" alt="Инстаграм">
             </a>
           </li>
           <li class="social-item">
             <a class="social-link" href="#">
-              <span class="visually-hidden">Твиттер </span>
+              <img class="social-name" src="images/twitter.svg" width="15" height="14" alt="Твиттер">
             </a>
           </li>
         </ul>
         <a class="logotype" href="" aria-label="logo">
-          <!-- inline-svg -->
+          <img class="logotype" src="images/html-logo.svg" width="115" height="33" alt=".htmlacademy">
         </a>
       </section>
     </footer>
